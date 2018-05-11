@@ -36,7 +36,7 @@ connection.authenticate({ username: SFusername, password: SFpassword, securityTo
 });
 
 var fetchToDo = function(psid){    
-	console.log("inside fetchToDo Method"+psid);
+	console.log("inside fetchToDo Method"+JSON.stringify(psid));
 	return new Promise(function(resolve, reject){
 		//connection.query({query: "SELECT Name, Amount FROM Opportunity where Id ='0067F000004YR3c'" }, function(err, res)
 		connection.postURL({url:"/services/data/v41.0/sobjects/temperature__e",body:psid}, function(err, res)	
