@@ -13,7 +13,7 @@ SFclientId = process.env.SF_CONSUMER_KEY,
 SFSecret = process.env.SF_CONSUMER_SECRET,
 SFusername = process.env.SF_USER,
 SFpassword = process.env.SF_PASSWORD,
-SFSecurityToken = process.env.SF_SecurityToken
+SFSecurityToken = process.env.SF_SECURITY_TOKEN
 
 ;
 
