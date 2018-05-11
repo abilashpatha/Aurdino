@@ -3,8 +3,7 @@
  */
 "use strict";
 	var request = require('request');
-	var SF = require('./SF_API');
-	var ST = require('./SetTemplate');
+	var SF = require('./sf_API');
 
 
 	exports.sf = SF;
