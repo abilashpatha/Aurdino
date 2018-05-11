@@ -1,6 +1,6 @@
 {
-  "name": "sfdcfbbots",
-  "description": "Facebook BOTS integration with Salesforce",
+  "name": "aurdino",
+  "description": "Aurdino integration with salesforce",
   "env": {
 	  "FB_TOKEN": {
 	        "description": "Consumer Key of your Salesforce Connected App",
