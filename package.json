@@ -1,0 +1,29 @@
+{
+  "name": "Aurdino",
+  "version": "0.1.0",
+  "description": "Aurdino",
+  "main": "hello-world-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "nodeclipse"
+  ],
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "array-includes": "^3.0.3",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "cookie-session": "^1.2.0",
+    "express": "^4.13.3",
+    "express-session": "^1.13.0",
+    "nforce": "^1.4.1",
+    "promise": "^7.1.1",
+    "request": "^2.71.0"
+  }
+}
