@@ -39,7 +39,7 @@ var fetchToDo = function(psid){
 	console.log("inside fetchToDo Method"+JSON.stringify(psid));
 	return new Promise(function(resolve, reject){
 		//connection.query({query: "SELECT Name, Amount FROM Opportunity where Id ='0067F000004YR3c'" }, function(err, res)
-		connection.postUrl({url:"/services/data/v41.0/sobjects/temperature__e",body:JSON.stringify({'Bike_Serial_No__c' : '9779','Temperature__c' : '30'})}, function(err, res)	
+		connection.postUrl({url:"/services/data/v41.0/sobjects/temperature__e",body:JSON.stringify(psid)}, function(err, res)	
 				{
 		    if(err)
 		    { console.error(err);
