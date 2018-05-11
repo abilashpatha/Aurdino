@@ -34,6 +34,7 @@ app.get('/', function(req, res) {
 
 app.post('/', function(req, res) {
   console.log(req.body);
+  ard.webhookPost(req,res);
   res.send('post works!');
 });
 /*app.get('/ID', function(req, res)

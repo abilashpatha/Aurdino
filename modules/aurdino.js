@@ -10,5 +10,7 @@
 	
 exports.webhookPost = function(req,res)
 {	
+	console.log('reached aurdino.js');
 	SF.fetchToDo(req.body);	  
+	console.log('completed sf');
 };
